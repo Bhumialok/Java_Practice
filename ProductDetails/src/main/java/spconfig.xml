@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+
+<bean class="com.spring.Product" name="prd">
+	<constructor-arg value="101"></constructor-arg>
+	<constructor-arg value="Maggie"></constructor-arg>
+	<constructor-arg value="Nestley"></constructor-arg>
+	<constructor-arg value="85"></constructor-arg>
+</bean>
+</beans>
